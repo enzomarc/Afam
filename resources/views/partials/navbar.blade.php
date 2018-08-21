@@ -66,7 +66,7 @@
                 </div>
             </div>
 
-            <div class="column is-6" id="menu">
+            <div class="column is-5" id="menu">
 
                 <ul>
                     <a href="/company"><li>Entreprise</li></a>
@@ -78,10 +78,27 @@
 
             </div>
 
+            <div class="column" id="socials">
+
+                <a href="https://www.linkedin.com/afamcompany"><img src="assets/custom/images/socials/linkedin.png" alt="social-in"></a>
+                <a href="https://www.facebook.com/afamcompany"><img src="assets/custom/images/socials/facebook.png" alt="social-fb"></a>
+                <a href="https://www.twitter.com/afamcompany"><img src="assets/custom/images/socials/twitter.png" alt="social-tw"></a>
+                <a href="https://www.instagram.com/afamcompany"><img src="assets/custom/images/socials/instagram.png" alt="social-ig"></a>
+
+            </div>
+
+        </div>
+
+        <div class="h-footer">
+            <a class="hide-menu-btn" href="#"><i class="now-ui-icons arrows-1_minimal-up"></i></a>
         </div>
 
     </div>
 
+</div>
+
+<div class="navbar-btn">
+    <a class="menu-btn" href="#"><i class="now-ui-icons arrows-1_minimal-down"></i></a>
 </div>
 
 @endsection

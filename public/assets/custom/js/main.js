@@ -10,10 +10,20 @@ $(document).ready(function(){
 
     screenResize()
 
-    $(".navbar-burger").click(function() {
+    $(".navbar-burger").click(function () {
 
         $(".navbar-burger").toggleClass("is-active")
         $(".navbar-menu").toggleClass("is-active")
   
+    })
+
+    $("a.hide-menu-btn").click(function () {
+        $("div.navbar").slideUp(300);
+        $("div.navbar-btn").show();
+    })
+
+    $("a.menu-btn").click(function () {
+        $("div.navbar").slideDown(300);
+        $("div.navbar-btn").hide();
     })
 });

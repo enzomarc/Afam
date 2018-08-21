@@ -95,12 +95,14 @@ section.hero div.hero-head div.navbar {
 	height: 80%;
 	background-color: #12142C;
 	z-index: 10;
+	display: none;
 }
 
 section.hero div.hero-head div.navbar div.container {
 	display: flex;
 	flex-direction: column;
 	margin-top: 5%;
+	height: 90%;
 }
 
 section.hero div.hero-head div.navbar div.container div.header {
@@ -122,7 +124,6 @@ section.hero div.hero-head div.navbar div.container div.header div.shop {
 	width: 100%;
 	text-align: right;
 	align-self: center;
-	border-bottom: solid 1px #fff;
 	flex: 0.1;
 }
 
@@ -166,8 +167,8 @@ section.hero div.hero-head div.navbar div.container div.columns div.column p {
 /* Menu */
 
 section.hero div.hero-head div.navbar div.container div.columns div#menu ul li {
-	margin-bottom: 5%;
-	width: 40%;
+	margin-bottom: 6%;
+	width: 50%;
 }
 
 section.hero div.hero-head div.navbar div.container div.columns div#menu ul li:hover {
@@ -182,3 +183,55 @@ section.hero div.hero-head div.navbar div.container div.columns div#menu ul a {
 }
 
 /* End Menu */
+
+section.hero div.hero-head div.navbar div.container div.columns div#socials {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+section.hero div.hero-head div.navbar div.container div.columns div#socials a {
+	margin-bottom: 50%;
+}
+
+section.hero div.hero-head div.navbar div.container div.columns div#socials a img {
+	height: 16px;
+}
+
+section.hero div.hero-head div.navbar div.h-footer {
+	text-align: center;
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+}
+
+section.hero div.hero-head div.navbar div.h-footer a.hide-menu-btn i {
+	color: #fff;
+	font-size: 20px;
+}
+
+div.navbar-btn {
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 45%;
+	width: 10%;
+	background: rgba(18, 20, 44, 0.2);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	transition: all .3s;
+}
+
+div.navbar-btn:hover {
+	background: rgba(18, 20, 44, 0.4);
+	border-bottom-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	transition: all .3s;
+}
+
+div.navbar-btn a.menu-btn i {
+	color: #fff;
+	font-size: 20px;
+	margin: 10px 0 14px 0;
+}
+
