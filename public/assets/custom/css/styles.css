@@ -1,0 +1,184 @@
+/* Fonts */
+
+@font-face {
+	font-family: 'Lekton';
+	src: url('../fonts/Lekton/Lekton-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url('../fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto/Roboto-Regular.ttf');
+}
+
+/* End Fonts */
+
+body {
+	font-family: 'Roboto', 'Lekton', 'Segoe UI', sans-serif;
+	color: #fff;
+	min-height: 100%;
+	height: 100%;
+}
+
+section.hero {
+	min-height: 100%;
+	height: 100%;
+	background-image: url('../images/background/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* section.hero div.shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: linear-gradient(180deg, #000, #999);
+	height: 100%;
+	width: 100%;
+	opacity: .6;
+} */
+
+section.hero div.hero-head nav div.navbar-menu {
+	justify-content: center;
+}
+
+section.hero div.hero-head nav div.navbar-menu.is-active {
+	background-color: rgba(136, 132, 132, 0.3);
+}
+
+section.hero div.hero-head nav div.navbar-menu div.navbar-start {
+	margin-right: 0;
+}
+
+section.hero div.hero-head nav div.navbar-menu a.navbar-item,
+section.hero div.hero-head nav div.navbar-menu div.navbar-item {
+	font-family: 'Lekton';
+	font-size: 13px;
+	font-weight: 600;
+	padding: .5rem 1.5rem;
+	color: #eee;
+}
+
+section.hero div.hero-head nav div.navbar-menu a.navbar-item:hover, 
+section.hero div.hero-head nav div.navbar-menu div.navbar-item:hover,
+section.hero div.hero-head nav div.navbar-menu div.navbar-item a.navbar-link:hover {
+	color: #ccc;
+	background-color: transparent;
+}
+
+section.hero div.hero-head nav div.navbar-menu div.navbar-item a.navbar-link {
+	color: #eee;
+}
+
+section.hero div.hero-head nav div.navbar-menu div.navbar-dropdown .navbar-item {
+	color: #4a4a4a;
+}
+
+section.hero div.hero-head nav div.navbar-menu a.navbar-item img {
+	min-height: 76px;
+}
+
+section.hero div.hero-head nav div.navbar-menu div.navbar-end {
+	margin-left: 0;
+}
+
+section.hero div.hero-head div.navbar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	background-color: #12142C;
+	z-index: 10;
+}
+
+section.hero div.hero-head div.navbar div.container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+}
+
+section.hero div.hero-head div.navbar div.container div.header {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 5%;
+	flex-wrap: wrap;
+}
+
+section.hero div.hero-head div.navbar div.container div.header div.logo {
+	flex: 1;
+}
+
+section.hero div.hero-head div.navbar div.container div.header div.logo a img {
+	height: 64px;
+}
+
+section.hero div.hero-head div.navbar div.container div.header div.shop {
+	width: 100%;
+	text-align: right;
+	align-self: center;
+	border-bottom: solid 1px #fff;
+	flex: 0.1;
+}
+
+section.hero div.hero-head div.navbar div.container div.header div.shop:hover {
+	border-bottom: solid 2px #fff;
+}
+
+section.hero div.hero-head div.navbar div.container div.header div.shop a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Lekton';
+	font-size: 16px;
+	font-weight: 400;
+}
+
+section.hero div.hero-head div.navbar div.container div.header div.shop a:hover {
+	font-weight: 600;
+}
+
+section.hero div.hero-head div.navbar div.container div.header div.shop a i {
+	font-size: 17px;
+	margin-right: 15%;
+}
+
+section.hero div.hero-head div.navbar div.container div.columns {
+	width: 100%;
+	font-family: 'Roboto', 'Lekton', 'Lato', 'Segoe UI', sans-serif;
+}
+
+section.hero div.hero-head div.navbar div.container div.columns div.column span {
+	color: #fff;
+}
+
+section.hero div.hero-head div.navbar div.container div.columns div.column p {
+	font-size: 13px;
+	line-height: 1.6rem;
+	margin-top: 2%;
+	color: #686977;
+}
+
+/* Menu */
+
+section.hero div.hero-head div.navbar div.container div.columns div#menu ul li {
+	margin-bottom: 5%;
+	width: 40%;
+}
+
+section.hero div.hero-head div.navbar div.container div.columns div#menu ul li:hover {
+	border-bottom: solid 2px #fff;
+}
+
+section.hero div.hero-head div.navbar div.container div.columns div#menu ul a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto Light', 'Lekton', 'Lato', 'Segoe UI', sans-serif;
+	font-size: 30px;
+}
+
+/* End Menu */
