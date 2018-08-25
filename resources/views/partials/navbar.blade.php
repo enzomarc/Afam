@@ -1,49 +1,4 @@
 @section('navbar')
-    
-{{--
-
-<nav class="navbar is-primary" role="navigation" aria-label="dropdown navigation">
-    <div class="container">
-        <div class="navbar-brand">
-            <div class="navbar-burger burger" data-target="navbarMenu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
-
-        <div id="navbarMenu" class="navbar-menu">
-
-            <div class="navbar-start">
-                <a href="/enterprise" class="navbar-item">ENTREPRISE</a>
-                <a href="/association" class="navbar-item">ASSOCIATION</a>
-                <a href="/artists" class="navbar-item">NOS ARTISTES</a>
-            </div>
-
-            <a href="/" class="navbar-item">
-                <img src="assets/custom/images/logo.png" alt="logo">
-            </a>
-
-            <div class="navbar-end">
-                <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">NOS SERVICES</a>
-                
-                    <div class="navbar-dropdown is-boxed">
-                        <a href="/services/audio" class="navbar-item">Audio-visuel</a>
-                        <a href="/services/infography" class="navbar-item">Infographie</a>
-                        <a href="/services/photography" class="navbar-item">Photographie</a>
-                        <a href="/services/marketing" class="navbar-item">Communication marketing</a>
-                    </div>
-                </div>
-                <a href="/shop" class="navbar-item">BOUTIQUE</a>
-                <a href="/contact" class="navbar-item">NOUS CONTACTER</a>
-            </div>
-
-        </div>
-    </div>
-</nav>
-
---}}
 
 <div class="navbar">
 
@@ -95,6 +50,10 @@
 
     </div>
 
+</div>
+
+<div class="xheader">
+    <a href="/"><img src="assets/custom/images/logo.png" alt="logo"></a>
 </div>
 
 <div class="navbar-btn">

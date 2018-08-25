@@ -1,6 +1,6 @@
-@includeIf('../partials.navbar')
+@includeIf('partials.navbar')
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -10,11 +10,11 @@
     <link rel="stylesheet" href="assets/custom/css/styles.css">
     <link rel="stylesheet" href="assets/lib/css/bulma.min.css">
     <link rel="stylesheet" href="assets/lib/css/_nucleo-outline.scss">
-    <title>Afam Company</title>
+    <title>Afam Company - {{ $title }}</title>
 </head>
 <body>
 
-    <section class="hero">
+    <section class="hero header-home">
 
         <div class="shadow"></div>
 
@@ -28,7 +28,7 @@
 
             <div class="container">
                 
-                @yield('content')
+                @yield('header-content')
 
             </div>
 
@@ -36,7 +36,10 @@
 
     </section>
 
+    @yield('content')
+
     <script src="assets/lib/js/jquery.js"></script>
+    <script src="assets/lib/js/scrollreveal.min.js"></script>
     <script src="assets/custom/js/main.js"></script>
 
 </body>
