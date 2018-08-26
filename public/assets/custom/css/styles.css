@@ -294,7 +294,7 @@ section.hero div.hero-body div.container {
 section.hero {
 	background: #eee;
 	background: linear-gradient(20deg, #eee, #fff);
-	padding-bottom: 5%
+	padding-bottom: 5%;
 }
 section.hero div.hero-body div.columns {
 	margin-top: 5%;
@@ -336,16 +336,16 @@ div.goto {
 
 div.goto a {
 	background-color: #fff;
-	color: #FFCC00;
+	color: #fc0;
 	padding: 3% 4%;
-	box-shadow: #ddd 0px 20px 20px 2px;
+	box-shadow: #ddd 0 20px 20px 2px;
 	transition: all .3s;
 }
 
 div.goto a:hover {
-	box-shadow: #ddd 20px 0px 20px 2px;
+	box-shadow: #ddd 20px 0 20px 2px;
 	color: #222;
-	background-color: #FFCC00;
+	background-color: #fc0;
 	transition: all .3s;
 }
 
@@ -396,7 +396,7 @@ section.home-services div.hero-body div.body-section div.columns div.column div.
 
 section.home-services div.hero-body div.body-section div.columns div.column div.goto a {
 	padding: 5% 7%;
-	box-shadow: #ddd 0px 20px 20px 7px;
+	box-shadow: #ddd 0 20px 20px 7px;
 }
 
 section.home-services div.hero-body div.body-section div.columns div.column h1 {
@@ -408,7 +408,7 @@ section.home-services div.hero-body div.body-section div.columns div.column h1 {
 }
 
 section.home-services div.hero-body div.body-section div.columns div.column h1:hover {
-	color: #FFCC00;
+	color: #fc0;
 	transition: all .2s;
 }
 
